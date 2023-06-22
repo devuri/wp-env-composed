@@ -1,9 +1,19 @@
 {
-    name: "devuri/wp-env-app-core",
-    description: "Web Application provides `web_app_config` action and bootstrap file.",
-    license: "GPL-2.0+",
-    type: "wordpress-muplugin",
-    require: {
-            composer/installers: "~1.0"
+  "name": "devuri/wp-env-composed",
+  "type": "wordpress-muplugin",
+  "description": "Web Application provides `web_app_config` action and bootstrap file.",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Uriel Wilson",
+      "email": "hello@urielwilson.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "wordpress-plugin": {
+      "main": "compose.php",
+      "text-domain": "wp-env-composed"
+    }
+  }
 }
