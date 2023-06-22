@@ -1,0 +1,9 @@
+{
+    name: "devuri/wp-env-app-core",
+    description: "Web Application provides `web_app_config` action and bootstrap file.",
+    license: "GPL-2.0+",
+    type: "wordpress-muplugin",
+    require: {
+            composer/installers: "~1.0"
+    }
+}
