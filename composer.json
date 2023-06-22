@@ -12,7 +12,7 @@
   "minimum-stability": "dev",
   "extra": {
     "wordpress-plugin": {
-      "main": "compose.php",
+      "main": "composed.php",
       "text-domain": "wp-env-composed"
     }
   }
