@@ -8,7 +8,7 @@
  * @license           GPL-2.0
  *
  * @wordpress-plugin
- * Plugin Name:       Web App Core Composed
+ * Plugin Name:       Web App Core
  * Plugin URI:        https://github.com/devuri/wp-env-app
  * Description:       Web Application provides `web_app_config` action and bootstrap file.
  * Version:           0.0.1
